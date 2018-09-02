@@ -2,27 +2,15 @@
     Colors
 *************************/
 
-body,
-article,
-.content {
+body, article, main {
     background: #777777;
     color: #ebebeb;
 }
 
-header,
-nav,
-section,
-aside,
-footer,
-div,
-h1,
-h2,
-h3,
-p {
+header, nav, section, aside, details, mark, footer, div, h1, h2, h3, p {
     background: #ebebeb;
     color: #777777;
 }
-
 
 /************************
     Fonts
@@ -33,22 +21,19 @@ body {
     font-size: 18px;
 }
 
-h1,
-h2,
-h3 {
-    font-size: 18px;
-    display: inline;
+h1 {
+    font-size: 2em;
 }
 
+h1, h2, h3 {
+    display: inline;
+}
 
 /************************
     Sizing
 *************************/
 
-header,
-nav,
-footer,
-.content {
+header, nav, footer, main {
     width: 960px;
 }
 
@@ -60,43 +45,33 @@ aside {
     width: 405px;
 }
 
-.content {
-    height: 300px;
+main {
+    height: auto;
 }
 
-section,
-aside {
-    height: 245px;
+section, aside {
+    height: auto;
 }
-
 
 /************************
     Layout
 *************************/
 
-header,
-nav,
-footer,
-section,
-aside,
-.content {
+header, nav, footer, section, aside, main {
     text-align: center;
 }
 
-header,
-nav,
-footer {
+header, nav, footer {
     margin: 10px auto;
     padding: 35px 0;
 }
 
-.content {
+main {
     margin: 20px auto;
     padding: 0;
 }
 
-section,
-aside {
+section, aside {
     padding: 30px 10px;
 }
 
@@ -115,8 +90,7 @@ article {
     padding: 15px;
 }
 
-div,
-p {
+div, p {
     padding: 20px;
 }
 
